@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -34,6 +35,7 @@ gem 'minitest-reporters', '~> 1.1', '>= 1.1.10'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rails-controller-testing', '~> 0.1.1'
 end
 
 group :development do
